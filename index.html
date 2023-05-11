@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header></header>
     <main class="apresentacao">
-        <section>
-            <h1>Eleve seu negócio digital a outro nível<strong class="destaque" > com um Front-end de qualidade!</strong></h1>
-            <p>Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-            <a href="https://www.instagram.com/" target=”_blank” >Instagram</a>
-            <a href="https://github.com/" target=”_blank” >Github</a>
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível<strong class="destaque" > com um Front-end de qualidade!</strong></h1>
+            <p class="apresentacao__conteudo__paragrafo">Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+            <div class="apresentacao__links">
+            <a class="apresentacao__links__link" href="https://www.instagram.com/" target=”_blank” >Instagram</a>
+            <a class="apresentacao__links__link" href="https://github.com/" target=”_blank” >Github</a>
+            </div>
         </section>     
             <img src="Imagem.png" alt="foto joana programando">
            
@@ -24,11 +23,12 @@
     <footer></footer>
     <!--I'm using css in line just for making the project more simple, i know thats not a good practice-->
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
         :root{
             --defalt-black: #000000;
             --defalt-white: #F6F6F6;
             --dfefalt-blue: #22D4FD;
-            font-family: 'Krona One', sans-serif;
+            
         }
         *{
             margin: 0;
@@ -44,11 +44,35 @@
             color: var(--defalt-white);
         }
         .apresentacao{
+            margin: 10%;  /* os vão ter uma margem na lateral*/
             display: flex; /* os itens vão ficar alinhados*/
             align-items: center; /*os itens se alinham ao centro da tela*/
             justify-content: space-between; /*cria uma espaçamento entre os itens*/
             
         }
+        .apresentacao__conteudo {
+            width: 615px;        /*tamanho do conteudo pego no figma*/
+            
+            
+        }
+        .apresentacao__conteudo__titulo {
+            font-size: 36px;
+            font-family: 'Krona One', sans-serif;
+           
+        }
+        .apresentacao__conteudo__paragrafo {
+            font-size: 24px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .apresentacao__links{
+            display: flex; /*sempre que vamos mexer no espaço colocamos no pai o display flex*/
+            justify-content: space-between;
+        }
+        .apresentacao__links__link{
+            background-color: var(--dfefalt-blue);
+            width: 280px; /*tamanho do botão pego no figma*/
+        }
+
         
     </style>
 
