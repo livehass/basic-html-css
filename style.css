@@ -19,7 +19,7 @@
             color: var(--defalt-white);             /*cores das letras principais do body*/
         }
         .apresentacao{
-            margin: 10% 15%;                            /*os vão ter uma margem na lateral*/
+            margin: 10% 15%;                        /*os vão ter uma margem na lateral*/
             display: flex;                          /*os itens vão ficar alinhados*/
             align-items: center;                    /*os itens se alinham ao centro da tela*/
             justify-content: space-between;         /*cria uma espaçamento entre os itens*/
@@ -43,6 +43,9 @@
         .apresentacao__links{
             display: flex;                          /*sempre que vamos mexer no espaço colocamos no pai o display flex*/
             justify-content: space-between;         /*espaçamento entre os itens*/
+            flex-direction: column;                 /*alinhamento dos itens em coluna*/
+            align-items: center;                    /*alinha os itens no centro*/          
+            gap: 32px;                              /*adiciona um espaçamento entre os itens*/
         }
         .apresentacao__links__link{
             background-color: var(--dfefalt-blue);  /*cor de fundo da ancora*/
