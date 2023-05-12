@@ -54,9 +54,11 @@
         }
         .apresentacao__links__link{
          /* background-color: var(--dfefalt-blue);  cor de fundo da ancora */
+            display: flex;                          /*voltamos para o posicionamento padrao*/
+            justify-content: center;                /*o conteudo vao para o centro*/
             width: 378px;                           /*tamanho do botão pego no figma*/
             text-align: center;                     /*alinha os textos ao centro*/
-            border-radius: 8px;                    /*raio da borda*/
+            border-radius: 8px;                     /*raio da borda*/
             font-size: 24px;                        /*tamanho da fonte*/
             font-weight: 600;                       /*fonte em negrito como do figma*/
             padding: 21.5px 0;                      /*espaçamento entre a borda e o item*/
@@ -64,6 +66,7 @@
             color: var(--defalt-white);             /*cor do texto*/
             font-family: 'Montserrat', sans-serif;  /*fonte*/
             border: 2px solid var(--dfefalt-blue);
+            gap: 16px;
         }
         .rodape{
             background-color: #22D4FD;
