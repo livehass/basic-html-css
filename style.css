@@ -47,6 +47,10 @@
             align-items: center;                    /*alinha os itens no centro*/          
             gap: 32px;                              /*adiciona um espaçamento entre os itens*/
         }
+        .apresentacao__links__subtitulo{
+            font-family: 'Krona One', 'sans-serif'; /*fonte*/
+            font-weight: 400;                       /*peso da fonte*/
+        }
         .apresentacao__links__link{
             background-color: var(--dfefalt-blue);  /*cor de fundo da ancora*/
             width: 280px;                           /*tamanho do botão pego no figma*/
