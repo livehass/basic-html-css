@@ -1,10 +1,9 @@
+/*importa as fontes */
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
-        /*importa as fontes */
         :root{
             --defalt-black: #000000;              /*variaveis de cores*/
             --defalt-white: #F6F6F6;
-            --dfefalt-blue: #22D4FD;
-            
+            --dfefalt-blue: #22D4FD;          
         }
         *{
             margin: 0;
@@ -57,4 +56,11 @@
             color: var(--defalt-black);             /*cor do texto*/
             font-family: 'Montserrat', sans-serif;  /*fonte*/
             
+        }
+        .rodape{
+            background-color: #22D4FD;
+            padding: 23.64px 0;
+            width: 100%;
+            display: flex;
+            text-align: center;
         }
