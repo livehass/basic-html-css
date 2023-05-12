@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Basic html and css</title>
 </head>
 <body>
     <header></header>
@@ -17,77 +18,9 @@
             <a class="apresentacao__links__link" href="https://github.com/" target=”_blank” >Github</a>
             </div>
         </section>     
-            <img src="Imagem.png" alt="foto joana programando">
-           
+        <img src="Imagem.png" alt="foto joana programando">       
     </main>
     <footer></footer>
-    <!--I'm using css in line just for making the project more simple, i know thats not a good practice-->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
-        /*importa as fontes */
-        :root{
-            --defalt-black: #000000;              /*variaveis de cores*/
-            --defalt-white: #F6F6F6;
-            --dfefalt-blue: #22D4FD;
-            
-        }
-        *{
-            margin: 0;
-            padding: 0;                             /*reset da margin e do padding para iniciar*/            
-        }
-        .destaque{
-            color: var(--dfefalt-blue);             /*cor da strong em destaque*/
-        }
-        body {
-            height: 100vh;                          /*definimos o tamanho do body para 100% do tamanho da viewport*/
-            box-sizing: border-box;                 /*garantimos que os filhos do body não vao sair de dentro dele*/
-            background-color: var(--defalt-black);  /*cor de fundo do body*/
-            color: var(--defalt-white);             /*cores das letras principais do body*/
-        }
-        .apresentacao{
-            margin: 10% 15%;                            /*os vão ter uma margem na lateral*/
-            display: flex;                          /*os itens vão ficar alinhados*/
-            align-items: center;                    /*os itens se alinham ao centro da tela*/
-            justify-content: space-between;         /*cria uma espaçamento entre os itens*/
-            
-        }
-        .apresentacao__conteudo {
-            width: 615px;                           /*tamanho do conteudo pego no figma*/
-            display: flex;                          /*adicionamos o display flex para mudarmos o flex direction*/
-            flex-direction: column;                 /*o flex tem como parametro padrao a vertical, mudamos agora para coluna*/
-            gap: 40px;                              /*espaçamento entre os conteudos da section*/
-        }
-        .apresentacao__conteudo__titulo {
-            font-size: 36px;                        /*tamanho da fonte*/
-            font-family: 'Krona One', sans-serif;   /*fonte*/
-           
-        }
-        .apresentacao__conteudo__paragrafo {
-            font-size: 24px;                        /*tamanho da fonte*/
-            font-family: 'Montserrat', sans-serif;  /*fonte*/
-        }
-        .apresentacao__links{
-            display: flex;                          /*sempre que vamos mexer no espaço colocamos no pai o display flex*/
-            justify-content: space-between;         /*espaçamento entre os itens*/
-        }
-        .apresentacao__links__link{
-            background-color: var(--dfefalt-blue);  /*cor de fundo da ancora*/
-            width: 280px;                           /*tamanho do botão pego no figma*/
-            text-align: center;                     /*alinha os textos ao centro*/
-            border-radius: 16px;                    /*raio da borda*/
-            font-size: 24px;                        /*tamanho da fonte*/
-            font-weight: 600;                       /*fonte em negrito como do figma*/
-            padding: 21.5px 0;                      /*espaçamento entre a borda e o item*/
-            text-decoration: none;                  /*tira a rasura do texto*/
-            color: var(--defalt-black);             /*cor do texto*/
-            font-family: 'Montserrat', sans-serif;  /*fonte*/
-            
-
-        }
-
-        
-    </style>
-
 </body>
 </html>
 
