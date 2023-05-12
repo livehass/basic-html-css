@@ -45,7 +45,7 @@
             color: var(--defalt-white);             /*cores das letras principais do body*/
         }
         .apresentacao{
-            margin: 10%;                            /*os vão ter uma margem na lateral*/
+            margin: 10% 15%;                            /*os vão ter uma margem na lateral*/
             display: flex;                          /*os itens vão ficar alinhados*/
             align-items: center;                    /*os itens se alinham ao centro da tela*/
             justify-content: space-between;         /*cria uma espaçamento entre os itens*/
@@ -53,8 +53,9 @@
         }
         .apresentacao__conteudo {
             width: 615px;                           /*tamanho do conteudo pego no figma*/
-            
-            
+            display: flex;                          /*adicionamos o display flex para mudarmos o flex direction*/
+            flex-direction: column;                 /*o flex tem como parametro padrao a vertical, mudamos agora para coluna*/
+            gap: 40px;                              /*espaçamento entre os conteudos da section*/
         }
         .apresentacao__conteudo__titulo {
             font-size: 36px;                        /*tamanho da fonte*/
