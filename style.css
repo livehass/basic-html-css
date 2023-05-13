@@ -10,15 +10,21 @@
             margin: 0;
             padding: 0;                             /*reset da margin e do padding para iniciar*/            
         }
-        .destaque{
-            color: var(--default-blue);             /*cor da strong em destaque*/
-        }
         body {
             /*retiramos o tamanho que seria sempre 100% do viewport por que adicionamos um rodapé*/
             /*height: 100vh;                         definimos o tamanho do body para 100% do tamanho da viewport*/
             box-sizing: border-box;                  /*garantimos que os filhos do body não vao sair de dentro dele*/
             background-color: var(--default-black);  /*cor de fundo do body*/
             color: var(--default-white);             /*cores das letras principais do body*/
+        }
+        .cabecalho{ 
+            padding: 2% 0% 0% 15% ;                 /*padding apenas em cima e a esquerda*/
+        }
+        .cabecalho__menu__link {
+            font-family: 'Montserrat', sans-serif;  /*fonte*/
+            font-weight: 600;                       /*peso*/
+            font-size: 24px;                        /*tamanho*/
+            color: var(--default-blue);
         }
         .apresentacao{
             /*margin: 10% 15%;                      os vão ter uma margem na lateral*/
@@ -38,6 +44,9 @@
             font-size: 36px;                        /*tamanho da fonte*/
             font-family: 'Krona One', sans-serif;   /*fonte*/
            
+        }
+        .destaque{
+            color: var(--default-blue);             /*cor da strong em destaque*/
         }
         .apresentacao__conteudo__paragrafo {
             font-size: 24px;                        /*tamanho da fonte*/
