@@ -20,11 +20,16 @@
         .cabecalho{ 
             padding: 2% 0% 0% 15% ;                 /*padding apenas em cima e a esquerda*/
         }
+        .cabecalho__menu {
+            display: flex;                          /*inicia o display flex, para usar flexbox*/
+            gap: 80px;
+        }
         .cabecalho__menu__link {
             font-family: 'Montserrat', sans-serif;  /*fonte*/
             font-weight: 600;                       /*peso*/
             font-size: 24px;                        /*tamanho*/
-            color: var(--default-blue);
+            color: var(--default-blue);             /*cor dos itens do navbar*/
+            text-decoration: none;                  /*removemos a decoração padrao do texto*/
         }
         .apresentacao{
             /*margin: 10% 15%;                      os vão ter uma margem na lateral*/
