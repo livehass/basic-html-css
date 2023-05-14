@@ -2,10 +2,12 @@
 /*importa as fontes */
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
         :root{
-            --default-black: #000000;              /*variaveis de cores*/
-            --default-white: #F6F6F6;
-            --default-blue:  #22D4FD; 
-            --default-hover: #272727;        
+            --default-black: #002B5B;              /*variaveis de cores e fonte*/
+            --default-white: #F9F5EB;
+            --default-blue:  #EA5455; 
+            --default-hover: #414141;
+            --default-font:  'Krona One', sans-serif;   
+            --second-font:   'Montserrat', sans-serif;
         }
         *{
             margin: 0;
@@ -26,7 +28,7 @@
             gap: 80px;
         }
         .cabecalho__menu__link {
-            font-family: 'Montserrat', sans-serif;  /*fonte*/
+            font-family: var(--second-font);         /*fonte*/
             font-weight: 600;                       /*peso*/
             font-size: 24px;                        /*tamanho*/
             color: var(--default-blue);             /*cor dos itens do navbar*/
@@ -48,7 +50,7 @@
         }
         .apresentacao__conteudo__titulo {
             font-size: 36px;                        /*tamanho da fonte*/
-            font-family: 'Krona One', sans-serif;   /*fonte*/
+            font-family: var(--default-font)        /*fonte*/
            
         }
         .destaque{
@@ -56,7 +58,7 @@
         }
         .apresentacao__conteudo__paragrafo {
             font-size: 24px;                        /*tamanho da fonte*/
-            font-family: 'Montserrat', sans-serif;  /*fonte*/
+            font-family: var(--second-font);         /*fonte*/
         }
         .apresentacao__links{
             display: flex;                          /*sempre que vamos mexer no espaço colocamos no pai o display flex*/
@@ -66,7 +68,7 @@
             gap: 32px;                              /*adiciona um espaçamento entre os itens*/
         }
         .apresentacao__links__subtitulo{
-            font-family: 'Krona One', sans-serif;   /*fonte*/
+            font-family: var(--default-font);       /*fonte*/
             font-weight: 400;                       /*peso da fonte*/
             font-size: 24px;                        /*tamanho da fonte*/
         }
@@ -82,7 +84,7 @@
             padding: 21.5px 0;                      /*espaçamento entre a borda e o item*/
             text-decoration: none;                  /*tira a rasura do texto*/
             color: var(--default-white);            /*cor do texto*/
-            font-family: 'Montserrat', sans-serif;  /*fonte*/
+            font-family: var(--second-font);  /*fonte*/
             border: 2px solid var(--default-blue);  /*borda solida de 2px cor azul*/
             gap: 16px;                              /*espaçamento interno 16px*/
         }
@@ -90,7 +92,7 @@
             background-color: var(--default-hover); /*passando o mouse por cima*/
         }
         .rodape{
-            font-family: 'Montserrat', sans-serif;  /*fonte*/
+            font-family: var(--second-font);        /*fonte*/
             font-weight: 400;                       /*peso da fonte*/
             font-size: 24px;                        /*tamanho da fonte*/
             padding: 24px;                          /*espaçamento entre o item e a borda */
