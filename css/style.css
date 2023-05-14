@@ -28,7 +28,7 @@
             gap: 80px;
         }
         .cabecalho__menu__link {
-            font-family: var(--second-font);         /*fonte*/
+            font-family: var(--second-font);        /*fonte*/
             font-weight: 600;                       /*peso*/
             font-size: 24px;                        /*tamanho*/
             color: var(--default-blue);             /*cor dos itens do navbar*/
@@ -58,7 +58,7 @@
         }
         .apresentacao__conteudo__paragrafo {
             font-size: 24px;                        /*tamanho da fonte*/
-            font-family: var(--second-font);         /*fonte*/
+            font-family: var(--second-font);        /*fonte*/
         }
         .apresentacao__links{
             display: flex;                          /*sempre que vamos mexer no espaço colocamos no pai o display flex*/
@@ -84,7 +84,7 @@
             padding: 21.5px 0;                      /*espaçamento entre a borda e o item*/
             text-decoration: none;                  /*tira a rasura do texto*/
             color: var(--default-white);            /*cor do texto*/
-            font-family: var(--second-font);  /*fonte*/
+            font-family: var(--second-font);        /*fonte*/
             border: 2px solid var(--default-blue);  /*borda solida de 2px cor azul*/
             gap: 16px;                              /*espaçamento interno 16px*/
         }
