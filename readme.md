@@ -106,4 +106,11 @@
             text-align: center;                     /*alinhar o texto no centro*/
         }
         /*todos os parametros do font-size mudaram para 1.5rem tamanho relativo ao tamanho raiz do html, o tamanho root ou seja o tamanho que o usuario ultiliza em seu browser*/
-```        
+      
+@media (max-width: 1200px){ /*media querie, quando a tela for menor que 1200px*/
+            .apresentacao {
+               flex-direction: column-reverse;        /*todo o conteudo da main fica em coluna*/  
+            }                                         /*column-reverse reverte a ordem que os itens aparecem na coluna*/
+        }  
+
+        
