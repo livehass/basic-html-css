@@ -91,6 +91,10 @@
         .apresentacao__links__link:hover{
             background-color: var(--default-hover); /*passando o mouse por cima*/
         }
+        .apresentacao__imagem {                     /*imagem ultilizara 50% do elemento pai*/
+            width: 50%;                             /*nesse caso a main apresentacao*/
+        }                                           /*parte  de deixar o site responsivo*/
+                                                    /*com tamanhos de acordo com cada browser*/
         .rodape{
             font-family: var(--second-font);        /*fonte*/
             font-weight: 400;                       /*peso da fonte*/

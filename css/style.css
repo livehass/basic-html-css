@@ -26,7 +26,7 @@
         .cabecalho__menu__link {
             font-family: var(--second-font);         
             font-weight: 600;                       
-            font-size: 24px;                       
+            font-size: 1.5rem;                       
             color: var(--tertiary-color);             
             text-decoration: none;                  
         }
@@ -52,7 +52,7 @@
             color: var(--tertiary-color);             
         }
         .apresentacao__conteudo__paragrafo {
-            font-size: 24px;                        
+            font-size: 1.5rem;                        
             font-family: var(--second-font);         
         }
         .apresentacao__links{
@@ -65,7 +65,7 @@
         .apresentacao__links__subtitulo {
             font-family: var(--default-font);      
             font-weight: 400;                       
-            font-size: 24px;                      
+            font-size: 1.5rem;                      
         }
         .apresentacao__links__link{
             display: flex;                          
@@ -73,7 +73,7 @@
             width: 378px;                          
             text-align: center;                     
             border-radius: 8px;                     
-            font-size: 24px;                       
+            font-size: 1.5rem;                       
             font-weight: 600;                       
             padding: 21.5px 0;                      
             text-decoration: none;                  
@@ -85,10 +85,13 @@
         .apresentacao__links__link:hover {
             background-color: var(--default-hover); 
         }
+        .apresentacao__imagem {
+            width: 50%;
+        }
         .rodape {
             font-family: var(--second-font);        
             font-weight: 400;                       
-            font-size: 24px;                        
+            font-size: 1.5rem;                        
             padding: 24px;                          
             color: var(--primary-color);            
             background-color: var(--tertiary-color);  
