@@ -20,7 +20,8 @@
             background-color: var(--default-black);  /*cor de fundo do body*/
             color: var(--default-white);             /*cores das letras principais do body*/
         }
-        .cabecalho{ 
+        .cabecalho{                                 /*sequencia de um padding*/ 
+                                                    /*cima, direita, abaixo, esquerda*/
             padding: 2% 0% 0% 15% ;                 /*padding apenas em cima e a esquerda*/
         }
         .cabecalho__menu {
@@ -104,4 +105,5 @@
             background-color: var(--default-blue);  /*cor de fundo*/
             text-align: center;                     /*alinhar o texto no centro*/
         }
+        /*todos os parametros do font-size mudaram para 1.5rem tamanho relativo ao tamanho raiz do html, o tamanho root ou seja o tamanho que o usuario ultiliza em seu browser*/
 ```        

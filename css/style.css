@@ -26,8 +26,8 @@
         .cabecalho__menu__link {
             font-family: var(--second-font);         
             font-weight: 600;                       
-            font-size: 24px;                       
-            color: var(--default-blue);             
+            font-size: 1.5rem;                       
+            color: var(--tertiary-color);             
             text-decoration: none;                  
         }
         .apresentacao {                      
@@ -52,7 +52,7 @@
             color: var(--tertiary-color);             
         }
         .apresentacao__conteudo__paragrafo {
-            font-size: 24px;                        /*tamanho da fonte*/
+            font-size: 1.5rem;                        /*tamanho da fonte*/
             font-family: var(--second-font);         /*fonte*/
         }
         .apresentacao__links{
@@ -68,20 +68,23 @@
             font-size: 1.5rem;                      
         }
         .apresentacao__links__link{
-         /* background-color: var(--dfefalt-blue);  cor de fundo da ancora */
-            display: flex;                          /*voltamos para o posicionamento padrao*/
-            justify-content: center;                /*o conteudo vao para o centro*/
-            width: 378px;                           /*tamanho do botão pego no figma*/
-            text-align: center;                     /*alinha os textos ao centro*/
-            border-radius: 8px;                     /*raio da borda*/
-            font-size: 24px;                        /*tamanho da fonte*/
-            font-weight: 600;                       /*fonte em negrito como do figma*/
-            padding: 21.5px 0;                      /*espaçamento entre a borda e o item*/
-            text-decoration: none;                  /*tira a rasura do texto*/
-            color: var(--default-white);            /*cor do texto*/
+         
+            display: flex;                          
+            justify-content: center;              
+            width: 378px;                          
+            text-align: center;                 
+            border-radius: 8px;                    
+            font-size: 1.5rem;                       
+            font-weight: 600;                       
+            padding: 21.5px 0;                     
+            text-decoration: none;                  
+            color: var(--secondary-color);            
             font-family: var(--second-font);  
-            border: 2px solid var(--default-blue);  
+            border: 2px solid var(--tertiary-color);  
             gap: 16px;                              
+        }
+        .apresentacao__links__link:hover {
+            background-color: var(--default-hover);
         }
         .apresentacao__imagem {
             width: 50%;
